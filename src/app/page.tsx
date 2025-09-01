@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Header from "./components/header";
-import { CheckCircleIcon } from '@heroicons/react/20/solid'
+import Footer from "./components/footer";
 
 export default function Home() {
 
@@ -27,6 +27,7 @@ export default function Home() {
       </iframe>
     </div>
 
+      <Footer/>
 
         {/* <h1 className="text-3xl font-bold underline text-center">   calendly    </h1>
 
